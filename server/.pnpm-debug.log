@@ -1,0 +1,114 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "server",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "E:\\Projects\\story-app\\server"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "E:\\.pnpm-store\\v3",
+    "virtualStoreDir": "E:\\Projects\\story-app\\server\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "E:\\Projects\\story-app\\server",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cors/2.8.5",
+    "wanted": {
+      "dependentId": ".",
+      "name": "cors",
+      "rawSpec": "latest"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cors/2.8.5",
+    "requester": "E:\\Projects\\story-app\\server",
+    "status": "resolved"
+  },
+  "6 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/cors/2.8.5",
+    "size": 6173,
+    "status": "started"
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/express/4.18.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "express",
+      "rawSpec": "latest"
+    }
+  },
+  "8 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/express/4.18.1",
+    "requester": "E:\\Projects\\story-app\\server",
+    "status": "resolved"
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cors/2.8.5",
+    "requester": "E:\\Projects\\story-app\\server",
+    "status": "fetched"
+  },
+  "10 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/express/4.18.1",
+    "size": 55756,
+    "status": "started"
+  },
+  "11 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/mongoose/6.4.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "mongoose",
+      "rawSpec": "latest"
+    }
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/mongoose/6.4.4",
+    "requester": "E:\\Projects\\story-app\\server",
+    "status": "resolved"
+  },
+  "13 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmjs.org/mongoose/6.4.4",
+    "size": 816131,
+    "status": "started"
+  },
+  "14 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "body-perser is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/body-perser"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "body-perser",
+    "spec": {
+      "fetchSpec": "latest",
+      "name": "body-perser",
+      "type": "tag"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/body-perser: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/body-perser: Not Found - 404\n    at RetryOperation._fn (C:\\Users\\maruf_zgc9o6z\\AppData\\Roaming\\nvm\\v18.5.0\\node_modules\\pnpm\\dist\\pnpm.cjs:85627:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+    }
+  }
+}
